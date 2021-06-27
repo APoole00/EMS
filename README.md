@@ -1,2 +1,4 @@
 # EMS
 Exception Management Service (EMS) provides real time exception tracking and analytics. Desiged to give developers and management insight into the frequency, timing  and details needed in order to rank and address exceptions.
+
+EMS consists of client side libraries and exception management service with management interface. Developers will important the appropriate client side dependency and add calls prior to throwing exceptions to EMS. These calls will include the exception about to be thrown, the last x number of lines of the client logs, team responsible for fixing the defect and any additional information the developer believes is needed to resolve the situation. These exceptions are then collected and sorted based on their stack trace. They then provide real time insight into the frequency and timing of these exceptions. Management can then prioritize issues appropriately and provide the details necessary in order to resolve the defect. 
